@@ -14,7 +14,7 @@ All templates support [Sprig](https://masterminds.github.io/sprig/) template lib
 This library provides a group of commonly used template functions to work with dictionaries, 
 lists, math etc.
 
-| Mounting directory         | ConfigMap keys (filenames) | Source (choose a proper tag)                                                   |
-|----------------------------|----------------------------|--------------------------------------------------------------------------------|
-| `/etc/haproxy/template`    | `haproxy.tmpl`             | [haproxy.tmpl](https://github.com/jcmoraisjr/haproxy-ingress/blob/release-0.8/rootfs/etc/haproxy/template/haproxy.tmpl)                      |
-| `/etc/haproxy/modsecurity` | `spoe-modsecurity.tmpl`    | [spoe-modsecurity.tmpl](https://github.com/jcmoraisjr/haproxy-ingress/blob/release-0.8/rootfs/etc/haproxy/modsecurity/spoe-modsecurity.tmpl) |
+| Mounting directory           | ConfigMap keys (filenames) | Source (choose a proper tag)                                                   |
+|------------------------------|----------------------------|--------------------------------------------------------------------------------|
+| `/etc/templates/haproxy`     | `haproxy.tmpl`             | [haproxy.tmpl](https://github.com/jcmoraisjr/haproxy-ingress/blob/release-0.8/rootfs/etc/haproxy/template/haproxy.tmpl) |
+| `/etc/templates/modsecurity` | `modsecurity.tmpl`         | [modsecurity.tmpl](https://github.com/jcmoraisjr/haproxy-ingress/blob/release-0.8/rootfs/etc/haproxy/modsecurity/spoe-modsecurity.tmpl) |
